@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8" id="dataset"></div>
+            <div class="col-lg-4 bg-success" id="indDet"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <button id="getData">Get Data</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+
+    $(document).ready(function () {
+        $("#getData").click(function () {
+           globalAjaxCall("https://jsonplaceholder.typicode.com/posts", "GET", "json", loadData);
+        });
+
+        $("#dataset").on('click', '.showInddetail', function () {
+            myId = $(this).attr('data-id');
+            globalAjaxCall("https://jsonplaceholder.typicode.com/posts/"+myId, "GET", "json", showDetail);
+        });
+
+
+        function globalAjaxCall(url, method, content, callback) {
+            $.ajax({
+                url: url,
+                method: method,
+                contentType: content,
+                success: callback,
+                error: function () {
+                    console.log("There is a error");
+                }
+            });
+        }
+
+        function loadData(data){
+            for(key in data) {
+                result = '<div class="col-lg-6">' +
+                        '<h5>' + data[key].title + '</h5>' +
+                        '<p>' + data[key].body + '</p>' +
+                        '<button class="showInddetail btn btn-success" data-id="'+data[key].id+'">Show Detail</button>' +
+                        '</div>';
+                $("#dataset").append(result);
+            }
+        }
+
+        function showDetail(data){
+                result = '<div class="col-lg-6">' +
+                        '<h5>' + data.title + '</h5>' +
+                        '<p>' + data.body + '</p>' +
+                        '</div>';
+                $("#indDet").html(result);
+        }
+
+    });
+</script>
+</body>
+</html>
