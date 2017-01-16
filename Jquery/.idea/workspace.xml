@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2012f5e4-62a1-4373-902f-5ae901f2a9dc" name="Default" comment="w3School click event added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ul_li-first-child.html" />
+    <list default="true" id="2012f5e4-62a1-4373-902f-5ae901f2a9dc" name="Default" comment="first child html click">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jquery.iws" />
@@ -599,7 +598,7 @@
       <updated>1484508537157</updated>
       <workItem from="1484508550690" duration="4681000" />
       <workItem from="1484588260996" duration="26000" />
-      <workItem from="1484598230516" duration="3794000" />
+      <workItem from="1484598230516" duration="3955000" />
     </task>
     <task id="LOCAL-00001" summary="w3School click event added">
       <created>1484600625235</created>
@@ -629,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484601830805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first child html click">
+      <created>1484602518768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484602518768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8501000" />
+    <option name="totallyTimeSpent" value="8662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -696,7 +702,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="w3School click event added" />
-    <option name="LAST_COMMIT_MESSAGE" value="w3School click event added" />
+    <MESSAGE value="first child html click" />
+    <option name="LAST_COMMIT_MESSAGE" value="first child html click" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
