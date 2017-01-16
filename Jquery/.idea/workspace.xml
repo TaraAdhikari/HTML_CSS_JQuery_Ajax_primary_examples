@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2012f5e4-62a1-4373-902f-5ae901f2a9dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jquery.iws" />
@@ -586,12 +587,20 @@
       <updated>1484508537157</updated>
       <workItem from="1484508550690" duration="4681000" />
       <workItem from="1484588260996" duration="26000" />
-      <workItem from="1484598230516" duration="1885000" />
+      <workItem from="1484598230516" duration="2015000" />
     </task>
+    <task id="LOCAL-00001" summary="w3School click event added">
+      <created>1484600625235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484600625235</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6592000" />
+    <option name="totallyTimeSpent" value="6722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
@@ -633,6 +642,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="w3School click event added" />
+    <option name="LAST_COMMIT_MESSAGE" value="w3School click event added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
