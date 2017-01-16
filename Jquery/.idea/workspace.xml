@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2012f5e4-62a1-4373-902f-5ae901f2a9dc" name="Default" comment="w3School click event added">
+    <list default="true" id="2012f5e4-62a1-4373-902f-5ae901f2a9dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jquery.iws" />
@@ -586,7 +586,7 @@
       <updated>1484508537157</updated>
       <workItem from="1484508550690" duration="4681000" />
       <workItem from="1484588260996" duration="26000" />
-      <workItem from="1484598230516" duration="2566000" />
+      <workItem from="1484598230516" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="w3School click event added">
       <created>1484600625235</created>
@@ -602,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484600750226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="w3School click event added">
+      <created>1484601260655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484601260655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7273000" />
+    <option name="totallyTimeSpent" value="7819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
