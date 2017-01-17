@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7749c0-a6e6-442c-ab7d-6bb36ce9d354" name="Default" comment=".button/.active/.disable">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap10_buttons_group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap11_Glyphicon.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Jquery/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Jquery/.idea/workspace.xml" />
     </list>
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap10_buttons_group.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap10_buttons_group.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap10_buttons_group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="1224">
               <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap11_Glyphicon.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap11_Glyphicon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -67,6 +77,7 @@
         <option value="$PROJECT_DIR$/bootstrap8_alert.html" />
         <option value="$PROJECT_DIR$/bootstrap9_buttons.html" />
         <option value="$PROJECT_DIR$/bootstrap10_buttons_group.html" />
+        <option value="$PROJECT_DIR$/bootstrap11_Glyphicon.html" />
       </list>
     </option>
   </component>
@@ -598,7 +609,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484672301266</updated>
-      <workItem from="1484672303647" duration="12720000" />
+      <workItem from="1484672303647" duration="13540000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap 1st page">
       <created>1484672487800</created>
@@ -684,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484691747353</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="group buttons/vertical/horizontal/dropdowns">
+      <created>1484694074779</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484694074779</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12720000" />
+    <option name="totallyTimeSpent" value="13540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
@@ -743,7 +761,8 @@
     <MESSAGE value="alert, alert with close options" />
     <MESSAGE value=".well class" />
     <MESSAGE value=".button/.active/.disable" />
-    <option name="LAST_COMMIT_MESSAGE" value=".button/.active/.disable" />
+    <MESSAGE value="group buttons/vertical/horizontal/dropdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="group buttons/vertical/horizontal/dropdowns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,8 +873,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap10_buttons_group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="1224">
           <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap11_Glyphicon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>
