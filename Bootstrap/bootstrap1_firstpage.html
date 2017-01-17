@@ -2,45 +2,73 @@
 <html lang="en">
 <head>
     <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"><!--//this is character set for HTML5-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--Latest compiled and minified CSS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- jQuery library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- Latest compiled JavaScript -->
 </head>
 <body>
 
-<div class="jumbotron text-center">
-    <h2> My First Bootstrap Page</h2>
+<div class="jumbotron text-center" style="background-color: lightcoral">
+    <h2> My First Bootstrap Page<small>subheading</small></h2>
     <p> Refdjkfjdkjakjdfkajsdfjaksdjfkasdjfkasjddafsdkals</p>
-    <button class="btn btn-default">Hit me..</button>
+    <button class="btn btn-default">btn-default</button>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid"><!--The .container class provides a responsive fixed width container
+The .container-fluid class provides a full width container, spanning the entire width of the viewport-->
     <div class="row">
-        <div class="col-lg-3">
-            <h2>Column 1</h2>
+        <div class="col-lg-3" style="background-color: aquamarine"><!--shortcut is .col-lg-3 and hit ctrl+space-->
+            <h2>Column 1<small>subheading</small></h2>
             <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
             <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
-            <button class="btn btn-warning">Hit me..</button>
+            <button class="btn btn-warning">btn-warning.</button>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3" style="background-color: cadetblue">
+            <h2> Cloumn 2<small>subheading</small></h2>
+            <p>jfasdkjf  ajdfkajsdfka  adjfkasjdfa jskdjfkajfkas jakfdjas</p>
+            <p>sfdasf afdasdfas adjfhasjdh a dfhasjhfa ajhsdasd </p>
+            <button class="btn btn-danger">btn-danger</button>
+        </div>
+        <div class="col-lg-3"style="background-color: darksalmon">
+            <h2>Column 3<small>subheading</small></h2>
+            <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
+            <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
+            <button class="btn btn-primary">btn-primary</button>
+        </div>
+        <div class="col-lg-3" style="background-color: darkgray">
+            <h2>Column 4<small>subheading</small></h2>
+            <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
+            <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
+            <button class="btn btn-success">btn-success</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3" style="background-color: indianred"><!--shortcut is .col-lg-3 and hit ctrl+space-->
+            <h2>Column 1<small>subheading</small></h2>
+            <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
+            <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
+            <button class="btn btn-warning">btn-warning.</button>
+        </div>
+        <div class="col-sm-3" style="background-color: mediumaquamarine">
             <h2> Cloumn 2</h2>
             <p>jfasdkjf  ajdfkajsdfka  adjfkasjdfa jskdjfkajfkas jakfdjas</p>
             <p>sfdasf afdasdfas adjfhasjdh a dfhasjhfa ajhsdasd </p>
-            <button class="btn btn-danger">Kill me..</button>
+            <button class="btn btn-danger">btn-danger</button>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" style="background-color: gold">
             <h2>Column 3</h2>
             <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
             <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
-            <button class="btn btn-primary">Hit me..</button>
+            <button class="btn btn-primary">btn-primary</button>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" style="background-color: sandybrown", >
             <h2>Column 4</h2>
             <p>sdjfkdjkfjsdlkfjj kjadklfjksdjf j sdjkfjksaljdflkajd </p>
             <p>dfjksdjf jskjdfksjd kjakjfksjdfksdj  adksajkdjfasdjkasj</p>
-            <button class="btn btn-success">Hit me..</button>
+            <button class="btn btn-success">btn-success</button>
         </div>
     </div>
 
